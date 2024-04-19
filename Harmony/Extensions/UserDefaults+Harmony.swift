@@ -12,7 +12,7 @@ import Roxas
 extension UserDefaults
 {
     var isDebugModeEnabled: Bool {
-        return UserDefaults.standard.bool(forKey: "com.rileytestut.Harmony.Debug")
+        return UserDefaults.standard.bool(forKey: "com.litritt.Harmony.Debug")
     }
     
     @NSManaged @objc(harmony_requiresLocalRecordMigration)

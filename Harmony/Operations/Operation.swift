@@ -35,7 +35,7 @@ class Operation<ResultType, ErrorType: Swift.Error>: RSTOperation, ProgressRepor
         self.coordinator = coordinator
         
         self.operationQueue = OperationQueue()
-        self.operationQueue.name = "com.rileytestut.Harmony.\(type(of: self)).operationQueue"
+        self.operationQueue.name = "com.litritt.Harmony.\(type(of: self)).operationQueue"
         self.operationQueue.qualityOfService = .utility
         
         super.init()

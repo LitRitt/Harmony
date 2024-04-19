@@ -55,7 +55,7 @@ class BatchRecordOperation<ResultType, OperationType: RecordOperation<ResultType
                 }
                 
                 var remainingRecordsCount = records.count
-                let remainingRecordsOutputQueue = DispatchQueue(label: "com.rileytestut.BatchRecordOperation.remainingRecordsOutputQueue")
+                let remainingRecordsOutputQueue = DispatchQueue(label: "com.litritt.BatchRecordOperation.remainingRecordsOutputQueue")
                 
                 self.prepare(records, in: fetchContext) { (result) in
                     do
