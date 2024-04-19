@@ -4,9 +4,6 @@
 [submodule "External/CwlPreconditionTesting"]
 	path = External/CwlPreconditionTesting
 	url = https://github.com/rileytestut/CwlPreconditionTesting.git
-[submodule "Backends/Drive"]
-	path = Backends/Drive
-	url = https://github.com/LitRitt/Harmony-Drive.git
 [submodule "Backends/Dropbox"]
 	path = Backends/Dropbox
 	url = https://github.com/LitRitt/Harmony-Dropbox.git
