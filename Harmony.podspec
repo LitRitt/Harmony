@@ -22,10 +22,4 @@ Pod::Spec.new do |spec|
     dropbox.dependency 'SwiftyDropbox', '~> 5.0.0'
   end
   
-  spec.subspec 'Harmony-Drive' do |drive|
-    drive.source_files  = "Backends/Drive/Harmony-Drive/**/*.swift"
-    drive.dependency 'GoogleAPIClientForREST/Drive', '~> 1.3.0'
-    drive.dependency 'GoogleSignIn', '~> 5.0'
-  end
-  
 end
