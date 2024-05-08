@@ -110,6 +110,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AC622FBE2BE2BCAA004757A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC622FB62BE2BCAA004757A9 /* Harmony-CloudKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFDE2C3C222DEBC9008038E0;
+			remoteInfo = "Harmony-CloudKit";
+		};
 		BF0B5BA32021238B0074CFB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFA1C8CB1ECD01C100DEA99D /* Project object */;
@@ -244,6 +251,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC622FB62BE2BCAA004757A9 /* Harmony-CloudKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Harmony-CloudKit.xcodeproj"; sourceTree = "<group>"; };
 		BF0499921F9AEEE900E0EFEE /* Syncable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syncable.swift; sourceTree = "<group>"; };
 		BF061DAF1FDBB86800908884 /* AnyKeyPath+StringValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyKeyPath+StringValue.swift"; sourceTree = "<group>"; };
 		BF06AD07222DD97900994C50 /* NSManagedObjectContext+Harmony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Harmony.swift"; sourceTree = "<group>"; };
@@ -377,6 +385,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC622FB82BE2BCAA004757A9 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				AC622FB62BE2BCAA004757A9 /* Harmony-CloudKit.xcodeproj */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
+		AC622FB92BE2BCAA004757A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC622FBF2BE2BCAA004757A9 /* Harmony_CloudKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BF0499821F9AE05100E0EFEE /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -683,6 +707,7 @@
 		BFAC538D2017F932006E0D36 /* Backends */ = {
 			isa = PBXGroup;
 			children = (
+				AC622FB82BE2BCAA004757A9 /* CloudKit */,
 				BF1446BE223837F300C387E1 /* Dropbox */,
 				BFAC538E2017F94F006E0D36 /* Drive */,
 			);
@@ -919,8 +944,8 @@
 					ProjectRef = BF7A1FEE1F9D667A0061B187 /* CwlPreconditionTesting.xcodeproj */;
 				},
 				{
-					ProductGroup = BFAC53902017F963006E0D36 /* Products */;
-					ProjectRef = BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */;
+					ProductGroup = AC622FB92BE2BCAA004757A9 /* Products */;
+					ProjectRef = AC622FB62BE2BCAA004757A9 /* Harmony-CloudKit.xcodeproj */;
 				},
 				{
 					ProductGroup = BF1446CD223837F300C387E1 /* Products */;
@@ -937,6 +962,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		AC622FBF2BE2BCAA004757A9 /* Harmony_CloudKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Harmony_CloudKit.framework;
+			remoteRef = AC622FBE2BE2BCAA004757A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BF1449CE223837F400C387E1 /* Harmony_Dropbox.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;

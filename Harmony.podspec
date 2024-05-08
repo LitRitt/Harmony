@@ -3,12 +3,13 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1"
   spec.summary      = "iOS Syncing Framework"
   spec.description  = "iOS framework that automatically syncs Core Data databases across different backends."
-  spec.homepage     = "https://github.com/rileytestut/Harmony"
+  spec.homepage     = "https://github.com/LitRitt/Harmony"
   spec.platform     = :ios, "14.0"
-  spec.source       = { :git => "https://github.com/rileytestut/Harmony.git" }
+  spec.source       = { :git => "https://github.com/litritt/Harmony.git" }
 
-  spec.author             = { "Riley Testut" => "riley@rileytestut.com" }
-  spec.social_media_url   = "https://twitter.com/rileytestut"
+  spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
+  spec.social_media_url   = "https://github.com/litritt
+  "
   
   spec.source_files  = "Harmony/**/*.{h,m,swift}"
   spec.public_header_files = "Harmony/Harmony.h"
@@ -22,10 +23,8 @@ Pod::Spec.new do |spec|
     dropbox.dependency 'SwiftyDropbox', '~> 5.0.0'
   end
   
-  spec.subspec 'Harmony-Drive' do |drive|
-    drive.source_files  = "Backends/Drive/Harmony-Drive/**/*.swift"
-    drive.dependency 'GoogleAPIClientForREST/Drive', '~> 1.3.0'
-    drive.dependency 'GoogleSignIn', '~> 5.0'
+  spec.subspec 'Harmony-CloudKit' do |cloudkit|
+    cloudkit.source_files  = "Backends/CloudKit/Harmony-CloudKit/**/*.swift"
   end
   
 end
