@@ -13,8 +13,6 @@
 		BF06AD18222DDD7700994C50 /* RecordEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF06AD17222DDD7700994C50 /* RecordEntry.swift */; };
 		BF0B5BA12021238B0074CFB9 /* Harmony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA1C8D41ECD01C100DEA99D /* Harmony.framework */; };
 		BF0B5BA22021238B0074CFB9 /* Harmony.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFA1C8D41ECD01C100DEA99D /* Harmony.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BF0B5BA52021238C0074CFB9 /* Harmony_Drive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAC53962017F963006E0D36 /* Harmony_Drive.framework */; };
-		BF0B5BA62021238C0074CFB9 /* Harmony_Drive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFAC53962017F963006E0D36 /* Harmony_Drive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF0B5BA9202123B00074CFB9 /* Roxas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D948A1F9C1C38004216B9 /* Roxas.framework */; };
 		BF0B5BAA202123B00074CFB9 /* Roxas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D948A1F9C1C38004216B9 /* Roxas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF1D94891F9C1C38004216B9 /* Roxas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D948A1F9C1C38004216B9 /* Roxas.framework */; };
@@ -124,13 +122,6 @@
 			remoteGlobalIDString = BFA1C8D31ECD01C100DEA99D;
 			remoteInfo = Harmony;
 		};
-		BF0B5BA72021238C0074CFB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BFECF9F82016982D0012B9FC;
-			remoteInfo = "Harmony-Drive";
-		};
 		BF1449CD223837F400C387E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BF1446CC223837F300C387E1 /* Harmony-Dropbox.xcodeproj */;
@@ -201,27 +192,6 @@
 			remoteGlobalIDString = BFA1C8D31ECD01C100DEA99D;
 			remoteInfo = Harmony;
 		};
-		BFAC53952017F963006E0D36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BFECF9F92016982D0012B9FC;
-			remoteInfo = "Harmony-Drive";
-		};
-		BFAC53972017F963006E0D36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BFECFA022016982E0012B9FC;
-			remoteInfo = "Harmony-DriveTests";
-		};
-		BFAC53992017F963006E0D36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BFECFAD420169EA20012B9FC;
-			remoteInfo = libGoogleDrive;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -241,7 +211,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BF0B5BA62021238C0074CFB9 /* Harmony_Drive.framework in Embed Frameworks */,
 				BF0B5BAA202123B00074CFB9 /* Roxas.framework in Embed Frameworks */,
 				BF0B5BA22021238B0074CFB9 /* Harmony.framework in Embed Frameworks */,
 			);
@@ -304,7 +273,6 @@
 		BFA4134A2194CDA90001D71A /* Dictionary+Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Sequence.swift"; sourceTree = "<group>"; };
 		BFAA23B81F9C14CC00969993 /* RecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
 		BFAB991420082E9900FF274D /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
-		BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Harmony-Drive.xcodeproj"; sourceTree = "<group>"; };
 		BFAC53A32017FE5A006E0D36 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC53A52017FE5A006E0D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAC53A72017FE5A006E0D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -374,7 +342,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0B5BA52021238C0074CFB9 /* Harmony_Drive.framework in Frameworks */,
 				BF0B5BA9202123B00074CFB9 /* Roxas.framework in Frameworks */,
 				BF9E9DB4202110B900F09B98 /* SafariServices.framework in Frameworks */,
 				BF9E9DB2202110A900F09B98 /* SystemConfiguration.framework in Frameworks */,
@@ -709,27 +676,8 @@
 			children = (
 				AC622FB82BE2BCAA004757A9 /* CloudKit */,
 				BF1446BE223837F300C387E1 /* Dropbox */,
-				BFAC538E2017F94F006E0D36 /* Drive */,
 			);
 			path = Backends;
-			sourceTree = "<group>";
-		};
-		BFAC538E2017F94F006E0D36 /* Drive */ = {
-			isa = PBXGroup;
-			children = (
-				BFAC538F2017F963006E0D36 /* Harmony-Drive.xcodeproj */,
-			);
-			path = Drive;
-			sourceTree = "<group>";
-		};
-		BFAC53902017F963006E0D36 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BFAC53962017F963006E0D36 /* Harmony_Drive.framework */,
-				BFAC53982017F963006E0D36 /* Harmony-DriveTests.xctest */,
-				BFAC539A2017F963006E0D36 /* libGoogleDrive.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BFAC53A42017FE5A006E0D36 /* Example */ = {
@@ -1032,27 +980,6 @@
 			remoteRef = BF7A200E1F9D667B0061B187 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BFAC53962017F963006E0D36 /* Harmony_Drive.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Harmony_Drive.framework;
-			remoteRef = BFAC53952017F963006E0D36 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BFAC53982017F963006E0D36 /* Harmony-DriveTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Harmony-DriveTests.xctest";
-			remoteRef = BFAC53972017F963006E0D36 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BFAC539A2017F963006E0D36 /* libGoogleDrive.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGoogleDrive.a;
-			remoteRef = BFAC53992017F963006E0D36 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1196,11 +1123,6 @@
 			isa = PBXTargetDependency;
 			target = BFA1C8D31ECD01C100DEA99D /* Harmony */;
 			targetProxy = BF0B5BA32021238B0074CFB9 /* PBXContainerItemProxy */;
-		};
-		BF0B5BA82021238C0074CFB9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Harmony-Drive";
-			targetProxy = BF0B5BA72021238C0074CFB9 /* PBXContainerItemProxy */;
 		};
 		BFA1C8E01ECD01C100DEA99D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1433,7 +1355,6 @@
 				DEVELOPMENT_TEAM = 6XVY5G3U44;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Backends/Drive/Google",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Example/Info.plist;
@@ -1465,7 +1386,6 @@
 				DEVELOPMENT_TEAM = 6XVY5G3U44;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Backends/Drive/Google",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Example/Info.plist;
