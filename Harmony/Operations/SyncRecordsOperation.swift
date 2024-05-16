@@ -38,7 +38,7 @@ class SyncRecordsOperation: Operation<[Record<NSManagedObject>: Result<Void, Rec
         
         self.progress.addChild(self.syncProgress, withPendingUnitCount: 1)
         
-        self.backgroundTaskIdentifier = UIApplication.shared.beginBackgroundTask(withName: "com.rileytestut.Harmony.SyncRecordsOperation") { [weak self] in
+        self.backgroundTaskIdentifier = UIApplication.shared.beginBackgroundTask(withName: "com.litritt.Harmony.SyncRecordsOperation") { [weak self] in
             guard let identifier = self?.backgroundTaskIdentifier else { return }
             UIApplication.shared.endBackgroundTask(identifier)
         }

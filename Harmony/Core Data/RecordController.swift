@@ -72,7 +72,7 @@ public final class RecordController: RSTPersistentContainer
     
     public override class func defaultDirectoryURL() -> URL
     {
-        let harmonyDirectory = FileManager.default.applicationSupportDirectory.appendingPathComponent("com.rileytestut.Harmony", isDirectory: true)
+        let harmonyDirectory = FileManager.default.applicationSupportDirectory.appendingPathComponent("com.litritt.Harmony", isDirectory: true)
         return harmonyDirectory
     }
     

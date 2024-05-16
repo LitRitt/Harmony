@@ -88,11 +88,11 @@ public final class SyncCoordinator
         self.recordController = RecordController(persistentContainer: persistentContainer)
         
         self.operationQueue = OperationQueue()
-        self.operationQueue.name = "com.rileytestut.Harmony.SyncCoordinator.operationQueue"
+        self.operationQueue.name = "com.litritt.Harmony.SyncCoordinator.operationQueue"
         self.operationQueue.qualityOfService = .utility
 
         self.syncOperationQueue = OperationQueue()
-        self.syncOperationQueue.name = "com.rileytestut.Harmony.SyncCoordinator.syncOperationQueue"
+        self.syncOperationQueue.name = "com.litritt.Harmony.SyncCoordinator.syncOperationQueue"
         self.syncOperationQueue.qualityOfService = .utility
         self.syncOperationQueue.maxConcurrentOperationCount = 1
     }
