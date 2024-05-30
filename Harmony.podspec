@@ -20,11 +20,11 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'Harmony-Dropbox' do |dropbox|
     dropbox.source_files  = "Backends/Dropbox/Harmony-Dropbox/**/*.swift"
-    dropbox.dependency 'SwiftyDropbox', '~> 5.0.0'
+    dropbox.dependency 'SwiftyDropbox', '~> 6.0.0'
   end
   
-  spec.subspec 'Harmony-CloudKit' do |cloudkit|
-    cloudkit.source_files  = "Backends/CloudKit/Harmony-CloudKit/**/*.swift"
-  end
+  # spec.subspec 'Harmony-CloudKit' do |cloudkit|
+  #   cloudkit.source_files  = "Backends/CloudKit/Harmony-CloudKit/**/*.swift"
+  # end
   
 end
